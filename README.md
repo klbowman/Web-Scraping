@@ -14,6 +14,10 @@ Initial web scraping was done in Jupyter Notebook (mission_to_mars.ipynb) using 
 * Pandas used to scrape table the data table and store that information as a string
 * Splinter used to navigate to enhanced image links
 
+The Jupyter Notebook file (mission_to_mars.ipynb) was then converted into a Python script (scrape_mars.py) with a function called scrape to execute the code. This scrape function returns one Python dictionary containing all of the scraped data.
+
+
+
 This repository is designed to visualize taxonomic data using charts, and display metadata in an organized panel. The [data](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/) comes from a study that sequenced the microbiome of 153 human belly buttons (Hulcr et al., 2012), and is stored in the samples.json file. Individual samples are identified by a numerical code and accompanied by metadata including age, gender, ethnicity, etc. Operational taxonomic units (OTUs) id numbers and counts are provided for each sample.
 
 The dashboard includes a drop-down menu that displays the numerical code for each individual sample. When a sample is selected, the “Demographic Info” panel is populated with metadata and the following three charts are populated with data:
