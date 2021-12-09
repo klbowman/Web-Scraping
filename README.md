@@ -24,9 +24,14 @@ The dashboard includes a drop-down menu that displays the numerical code for eac
 
 ### Technologies Used 
 
-* JavaScript
+* Jupyter Notebook
+* Pandas
+* Pyton
+* BeautifulSoup
+* Requests/Splinter
 * HTML
-* CSS
+* MongoDB
+* Flask
 
 ### Installing
 
