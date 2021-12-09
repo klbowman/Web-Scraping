@@ -1,8 +1,23 @@
 # Web Scraping 
 
-Web application that scrapes images and text from multiple websites, and displays them in a single HTML page.
+Web application that scrapes images, text, and a table from multiple websites, and displays them in a single HTML page.
 
 ## Description
+
+This HTML page displays data and images on the planet Mars, sourced from 4 different websites. 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74067302/145448320-bbe43cc2-f2fc-4fb7-955d-1c9fcb553b96.png" alt="Dashboard Image"/>
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74067302/145448339-7e38f680-868a-4b75-85b9-0467e83002c9.png" alt="Dashboard Image"/>
+</p>
+![Top](https://user-images.githubusercontent.com/74067302/145474573-b16bae8a-b9f8-4b8e-9ec5-e872ecacf427.png)
+![image](https://user-images.githubusercontent.com/74067302/145475065-c9526a2f-9b62-4898-9a5d-c1e1af986bc8.png)
+
+Initial web scraping was done in Jupyter Notebook (mission_to_mars.ipynb) using BeautifulSoup, Pandas, and Requests/Splinter.
+* BeautifulSoup used to retrieve latest news headline and paragrpah text image url
+* Pandas used to scrape table and store as string
+* Splinter used to navigate to enhanched image links
 
 This repository is designed to visualize taxonomic data using charts, and display metadata in an organized panel. The [data](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/) comes from a study that sequenced the microbiome of 153 human belly buttons (Hulcr et al., 2012), and is stored in the samples.json file. Individual samples are identified by a numerical code and accompanied by metadata including age, gender, ethnicity, etc. Operational taxonomic units (OTUs) id numbers and counts are provided for each sample.
 
@@ -35,7 +50,7 @@ The dashboard includes a drop-down menu that displays the numerical code for eac
 
 ### Installing
 
-* Clone this repository to your desktop.
+* Clone this repository to your desktop....run app.py files...
 * Navitage to the home directory and open index.html in your browser.
 
 ### Websites scraped
