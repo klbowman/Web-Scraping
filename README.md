@@ -6,13 +6,8 @@ Web application that scrapes images, text, and a table from multiple websites, a
 
 This HTML page displays data and images on the planet Mars, sourced from 4 different websites. 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/74067302/145448320-bbe43cc2-f2fc-4fb7-955d-1c9fcb553b96.png" alt="Dashboard Image"/>
+  <img src="https://user-images.githubusercontent.com/74067302/145475669-e5b72ec5-4f12-4cc2-962a-8942551f2378.png" alt="Webpage image"/>
 </p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74067302/145448339-7e38f680-868a-4b75-85b9-0467e83002c9.png" alt="Dashboard Image"/>
-</p>
-![Top](https://user-images.githubusercontent.com/74067302/145474573-b16bae8a-b9f8-4b8e-9ec5-e872ecacf427.png)
-![image](https://user-images.githubusercontent.com/74067302/145475065-c9526a2f-9b62-4898-9a5d-c1e1af986bc8.png)
 
 Initial web scraping was done in Jupyter Notebook (mission_to_mars.ipynb) using BeautifulSoup, Pandas, and Requests/Splinter.
 * BeautifulSoup used to retrieve latest news headline and paragrpah text image url
