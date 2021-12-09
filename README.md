@@ -4,15 +4,15 @@ Web application that scrapes images, text, and a table from multiple websites, a
 
 ## Description
 
-This HTML page displays data and images on the planet Mars, sourced from 4 different websites. 
+This HTML page displays text, images, and a data table about the planet Mars, sourced from 4 different websites. 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74067302/145475669-e5b72ec5-4f12-4cc2-962a-8942551f2378.png" alt="Webpage image"/>
 </p>
 
-Initial web scraping was done in Jupyter Notebook (mission_to_mars.ipynb) using BeautifulSoup, Pandas, and Requests/Splinter.
-* BeautifulSoup used to retrieve latest news headline and paragrpah text image url
-* Pandas used to scrape table and store as string
-* Splinter used to navigate to enhanched image links
+Initial web scraping was done in Jupyter Notebook (mission_to_mars.ipynb) using BeautifulSoup, Pandas, and Requests/Splinter:
+* BeautifulSoup was used to retrieve text and image urls 
+* Pandas used to scrape table the data table and store that information as a string
+* Splinter used to navigate to enhanced image links
 
 This repository is designed to visualize taxonomic data using charts, and display metadata in an organized panel. The [data](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/) comes from a study that sequenced the microbiome of 153 human belly buttons (Hulcr et al., 2012), and is stored in the samples.json file. Individual samples are identified by a numerical code and accompanied by metadata including age, gender, ethnicity, etc. Operational taxonomic units (OTUs) id numbers and counts are provided for each sample.
 
