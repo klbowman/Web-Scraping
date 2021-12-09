@@ -7,6 +7,20 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Mars</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #DDD;
+    }
+    
+    tr:hover {background-color: #D6EEEE;}
+    </style>
 </head>
 
 <body>
@@ -16,28 +30,26 @@
       <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape New Data</a></p>
     </div>
 
-  <div class = "container">
     <div class = "row">
-      <div class = "col-md-12">
+      <div class = "col-sm-12">
         <h2>Latest Mars News</h2>
         <h3>{{ mars.news_title }}</h3>
         <h4>{{ mars.text }}</h4>
       </div>
     </div>
+  
+    <div class = "row">
+        <div class="col-md-8">
+          <h2>Featured Mars Image</h2>
+          <img src="{{ mars.full_image }}" alt="Image of Mars" style = "width:100%">
+        </div>
+        <div class = "col-md-4">
+          <h2>Mars Facts</h2>
+          {{ mars.table|safe }}
+        </div>
+    </div>
+     
   </div>
-
-<div class = "container">
-  <div class = "row allign-items-start">
-    <div class="col-md-8">
-      <h2>Featured Mars Image</h2>
-      <img scr="{{mars.full_image}}" class = "img-fluid" alt="Image of Mars" style = "max-width:100%; max-height: auto;">
-    </div>
-
-    <div class = "col-md-4">
-      <h2>Mars Facts</h2>
-      {{ mars.table|safe }}
-    </div>
-</div>
 
 <br>
 <br>

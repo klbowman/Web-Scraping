@@ -40,12 +40,15 @@ def scrape_info():
     facts_url = 'https://galaxyfacts-mars.com/'
     # Use Panda's `read_html` to parse the url
     table = pd.read_html(facts_url)
+
     mars_df = table[0]
-    mars_df.columns = ['Mars-Earth Comparison', 'Mars', 'Earth']
+    mars_df.columns = mars_df.iloc[0]
     mars_df = mars_df.drop([0])
-    mars_df = mars_df.set_index(['Mars-Earth Comparison'])
+  
+    # Store table as string
     mars_table = mars_df.to_html()
     mars_table = mars_table.replace("\n", "")
+
 
     # Connect browser to image url
     images_url = 'https://marshemispheres.com/'
