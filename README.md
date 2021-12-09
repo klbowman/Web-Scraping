@@ -33,9 +33,12 @@ The dashboard includes a drop-down menu that displays the numerical code for eac
 * Clone this repository to your desktop.
 * Navitage to the home directory and open index.html in your browser.
 
-### Data Sources
+### Websites scraped
 
-* Hulcr J, Latimer AM, Henley JB, Rountree NR, Fierer N, et al. (2012) A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable. PLoS ONE 7(11): e47712. doi:10.1371/journal.pone.0047712 [Access Data](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/)
+* [Mars Planet Science Exploration Program](https://redplanetscience.com/)
+* [Jet Propulsion Laboratory: California Institute of Technology](https://spaceimages-mars.com/)
+* [Galaxy Facts: Mars](https://galaxyfacts-mars.com/)
+* [AstropediaLunar and Planetary Cartographic Catalog](https://marshemispheres.com/)
 
 
 ## Authors
