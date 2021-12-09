@@ -1,6 +1,6 @@
 # Web Scraping 
 
-Images and text scraped from multiple websites displayed in a single HTML page.
+Web application that scrapes images and text from multiple websites, and displays them in a single HTML page.
 
 ## Description
 
