@@ -1,6 +1,6 @@
 # Web Scraping 
 
-Interactive dashboard that displays charts and text from a JSON file. View the final product [here](https://klbowman.github.io/microbiome-dashboard/).
+Images and text scraped from multiple websites displayed in a single HTML page.
 
 ## Description
 
