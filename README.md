@@ -44,7 +44,7 @@ Flask is used to render the HTML template (index.html) and connect to MongoDB. T
 * [AstropediaLunar and Planetary Cartographic Catalog](https://marshemispheres.com/)
 
 
-## Authors
+## Author
 
 Katlin Bowman, PhD
 
